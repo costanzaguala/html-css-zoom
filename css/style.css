@@ -74,6 +74,39 @@ main {
 
 /* FOOTER */
 
+footer {
+    height: 100px;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > div {
+    display: flex;
+}
+
+footer button {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+footer .testo-button {
+    margin-top: 10px;
+}
+
+.fa-share-from-square {
+    color: limegreen;
+}
+
+footer .end-meeting {
+    background-color: #4A4A4A;
+    color: red;
+    border: none;
+    padding: 20px;
+}
 
 
 
